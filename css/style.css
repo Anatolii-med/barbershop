@@ -1,5 +1,27 @@
+:root {
+  --color-light: #ffffff;
+  --color-light-bg: #f7f7f7;
+  --color-light-grey60: rgba(157, 164, 189, 0.6);
+  --color-light-grey: #9da4bd;
+  --color-gray: #555555;
+  --color-dark-gray: #303030;
+  --color-gb-dark: #191c26;
+  --color-black: #000000;
+  --color-select: #ff6c00;
+
+  --txt-light: var(--color-light);
+  --txt-light-bg: var(--color-light-bg);
+  --txt-light-grey60: var(--color-light-grey60);
+  --txt-light-grey: var(--color-light-grey);
+  --txt-gray: var(--color-gray);
+  --txt-dark-gray: var(--color-dark-gray);
+  --txt-gb-dark: var(--color-gb-dark);
+  --txt-black: var(--color-black);
+  --txt-select: var(--color-select);
+}
+
 header,
 section,
 footer {
-    border: 1px solid;
+  border: 1px solid var(--color-black);
 }
